@@ -1,0 +1,80 @@
+en:
+  formtastic:
+    titles:
+      information: Información general
+      advanced_options: Opciones avanzadas
+      meta: Metadata de SEO
+      code: Código
+      raw_template: Plantilla
+      credentials: Credenciales
+      language: Idioma
+      sites: Sitios web
+      access_points: Puntos de acceso
+      memberships: Cuentas
+      membership_email: Correo electrónico de la cuenta
+      file: Archivo
+      preview: Avance
+      options: Opciones avanzadas
+      custom_fields: Campos especiales
+      other_fields: Otra información
+      presentation: Presentación
+      attributes: Atributos
+      upload: Subir
+    labels:
+      theme_asset:
+        plain_text_name: Nombre de archivo
+        content_type: Tipo de archivo
+        new:
+          source: Archivo
+        edit:
+          source: Reemplazar archivo
+      custom_fields:
+        field:
+          _alias: Alias
+      import:
+        new:
+          source: Archivo
+          samples: Muentras
+          reset: Volver a cero
+      content_type:
+        api_accounts: Cuentas notificadas
+      account:
+        edit:
+          password: Contraseña nueva
+          password_confirmation: Confirmación de contraseña nueva
+
+    hints:
+      page:
+        published: "Sólo cuentas autenticadas pueden ver contenido no publicado."
+        cache_strategy: "Haz un caché de la página para mejor rendimiento. La opción 'Sencilla' es recomendable."
+        templatized: "Utilizar la página como una plantilla para un modelo que has definido."
+        listed: "Controlar si la página debe verse en los menús generados."
+        content_type_id: "El tipo de contenido para el cual esta página será una plantilla."
+      snippet:
+        slug: "Debes conocerlo para poder insertar el trozo en una página"
+      site:
+        meta_keywords: "Términos meta utilizados en la etiqueta HEAD de la página. Serán separados por un espacio en blanco. Son requeridos para fines de SEO."
+        meta_description: "Descripción meta utilizada en la etiqueta HEAD de la página. Es requerida para fines de SEO."
+        domain_name: "ej: locomotiveapp.org"
+      theme_asset:
+        slug: "No necesitas añadir una extensión (.css o .js)"
+        edit:
+          source: "Puedes reemplazarlo/a con un archivo de la misma extensión."
+      asset:
+        source: "Todos los tipos de archivo son aceptados."
+        edit:
+          source: "El archivo actual está disponible aquí: %{url}"
+        update:
+          source: "El archivo actual está disponible aquí: %{url}"
+      custom_fields:
+        field:
+          _alias: "Propiedad disponible en plantillas líquidas"
+          hint: "Texto mostrado en la forma de modelo, justo debajo del campo"
+      import:
+        source: "Un archivo .zip que contiene un archivo llamado 'database.yml', así como archivos y plantillas"
+        samples: "Al estar encendido, el proceso de importación incluirá copias del contenido y los archivos"
+        reset: "Al estar encendido, toda la data de tu sitio web será destruida antes de importar el sitio web nuevo"
+      content_type:
+        api_enabled: "Utilizado para permitir que personas externas crear nuevas intancias (por ejemplo: mensajes en una forma de contacto)"
+        api_accounts: "Se enviará un mensaje de correo electrónico a cada una de las cuentas detalladas arriba cuando una nueva instancia es creada"
+

@@ -1,0 +1,293 @@
+en:
+  admin:
+    buttons:
+      login: Entrar
+      send_password: Enviar
+      change_password: Actualizar
+      new_item: "+ añadir"
+      switch_to_site: Ir
+
+    messages:
+      confirm: ¿Estás seguro?
+
+    shared:
+      header:
+        welcome: Bienvenido, %{name}
+        see: Ver sitio web
+        logout: Salir
+      menu:
+        contents: Contenido
+        assets: Archivos
+        settings: Configuración
+        pages: Páginas
+        snippets: Trozos
+        account: Mi cuenta
+        site: Sitio web
+        theme_assets: Archivos del tema
+      footer:
+        who_is_behind: "Servicios desarrollados por %{development} y diseñados por <a href=\"http://www.sachagreif.com\">Sacha Greif</a>"
+      form_actions:
+        back: Regresar sin guardar
+        create: Crear
+        update: Actualizar
+        send: Enviar
+
+    errors:
+      "500":
+        title: Error de aplicación
+        notice: "Lo sentimos, pero algo anda mal."
+        link: "&rarr; Regresar a la aplicación"
+      "404":
+        title: No se encuentra la página
+        notice: "La página que buscas no existe."
+        link: "&rarr; Regresar a la aplicación"
+
+    notifications:
+      new_content_instance:
+        subject: "[%{type}] nuevo/a"
+        title: "Hola %{name}. Sólo para informarte que se ha creado una nueva instancia en la fecha %{date}"
+        type: "Modelo: %{type}"
+
+    custom_fields:
+      edit:
+        title: Editar campo especial
+      text_formatting:
+        none: Ninguno
+        html: HTML
+      edit_field:
+        title: Editar campo
+      edit_category:
+        title: Editar opciones
+        help: Administrar la lista de opciones para la caja de selección.
+        collection_label: Lista de opciones
+      custom_form:
+        edit_categories: Editar opciones
+        delete_file: Borrar archivo
+      index:
+        is_required: es requerido
+        default_label: Nombre del campo
+
+    sessions:
+      new:
+        title: Entrar
+        link: "Olvidé mi contraseña"
+        email: "Correo electrónico"
+        password: "Contraseña"
+
+    passwords:
+      new:
+        title: Olvidé mi contraseña
+        link: "&rarr; Regresar a la página de entrada"
+        email: "Tu correo electrónico"
+      edit:
+        title: Actualizar mi contraseña
+        link: "&rarr; Regresar a la página de entrada"
+        password: "Tu nueva contraseña"
+        password_confirmation: "Confirmación de tu nueva contraseña"
+
+    pages:
+      index:
+        title: Listado de páginas
+        help: "Las páginas están organizadas como un árbol. Puedes organizar páginas, así como carpetas."
+        no_items: "No hay páginas por ahora. Haz click <a href=\"%{url}\">aquí</a> para crear la primera."
+        new: página nueva
+        lastest_items: Páginas más recientes
+      new:
+        title: Página nueva
+        help: "Favor llenar la forma a continuación para crear tu página. Cuidado: Nótese que la página no será publicada automáticamente."
+      page:
+        updated_at: actualizada en
+      edit:
+        show: mostrar
+        help: "El título de la página puede actualizarse haciendo click sobre él."
+        ask_for_title: "Favor escribir el nuevo título de la página"
+      form:
+        delete_file: Borrar archivo
+        default_block: Defecto
+        cache_strategy:
+          none: Ninguno
+          simple: Sencillo
+          hour: 1 hora
+          day: 1 día
+          week: 1 semana
+          month: 1 mes
+
+    snippets:
+      index:
+        title: Listado de trozos
+        help: "Trozos son pedazos de código HTML que pueden encontrarse en distintas partes del sitio web (por ejemplo, al calce de las páginas)."
+        no_items: "No existen trozos por ahora. Sólo haz click <a href=\"%{url}\">aquí</a> para crear el primero."
+        new: trozo nuevo
+      new:
+        title: Trozo nuevo
+        help: "Llena la forma a continuación para actualizar tu trozo."
+      edit:
+        title: Editar trozo
+        help: "Llena la forma a continuación para actualizar tu trozo."
+      snippet:
+        updated_at: Actualizado en
+
+    sites:
+      new:
+        title: Sitio web nuevo
+        help: "Llena la forma a continuación para crear tu nuevo sitio web."
+
+    current_sites:
+      edit:
+        import: importar
+        new_membership: añadir cuenta
+        help: "El sitio web se puede actualizar haciendo click sobre él."
+        ask_for_name: "Favor entrar el nombre para el nuevo sitio web"
+
+    memberships:
+      new:
+        title: Membresía nueva
+        help: "Favor entrar el correo electrónico de la cuenta nueva. Si la misma no existe, serás redirigido a una forma para crear la cuenta."
+
+    accounts:
+      new:
+        title: Cuenta nueva
+        help: "Llena la forma a continuación para añadir una cuenta nueva."
+
+    my_accounts:
+      edit:
+        help: "Tu nombre puede ser actualizado haciendo click sobre él"
+        new_site: sitio web nuevo
+        en: Inglés
+        de: Alemán
+        fr: Francés
+        pt-BR: "Portugués brasileño"
+        it: Italiano
+        ask_for_name: "Favor entrar tu nuevo nombre"
+
+    theme_assets:
+      index:
+        title: Listado de archivos del tema
+        help: "La sección de archivos de tema es donde administras los archivos necesarios para tu diseño, etcétera. Si necesitas administrar una galería de imágenes, ve a la sección de Archivos."
+        all: todos los archivos
+        new: archivo nuevo
+        snippets: Trozos
+        css_and_js: Estilos y javascript
+        fonts: Fuentes tipográficas
+        images: Imágenes
+        medias: Medios
+        no_items: "No hay archivos por ahora. Sólo haz click <a href=\"%{url}\">aquí</a> para crear el primero."
+      asset:
+        updated_at: Actualizado en
+      new:
+        title: Archivo nuevo
+        help: "Puedes elegir entre subir un archivo o copiar/pegar una hoja de estilos (CSS) o un javascript directamente como texto."
+      edit:
+        title: "Editar %{file}"
+        help: "Este archivo es accesible en la siguiente dirección web: <a href='%{url}'>%{url}</a>"
+      form:
+        picker_link: Insertar un archivo en el código
+        choose_file: Elegir archivo
+        choose_plain_text: Elegir texto directo
+      images:
+        title: Listado de imágenes
+        no_items: "No hay archivos por el momento."
+
+    asset_collections:
+      index:
+        title: Colecciones de archivos
+        help: "El nombre de la colección puede ser actualizado haciendo click sobre él. Puedes adaptar los archivos en una colección añadiendo nuevos campos."
+        new: colección nueva
+        no_items: "No hay colecciones por el momento. Sólo haz click <a href=\"%{url}\">aquí</a> para crear el primero."
+      new:
+        title: Colección nueva
+        help: "Por el momento, sólo escribe un nombre. Otras configuraciones estarán disponibles luego de enviar la forma."
+      edit:
+        help: "El nombre de la colección se puede actualizar haciendo click sobre él. Puedes adaptar los archivos en una colección añadiendo nuevos campos."
+        add_asset: añadir archivo
+        destroy: remover colección
+        no_items: "No hay archivos por el momento. Sólo haz click <a href=\"%{url}\">aquí</a> para crear el primer."
+        ask_for_name: "Favor escribir el nuevo nombre"
+
+    assets:
+      new:
+        title: Archivo nuevo
+        help: "Llena la forma a continuación para crear tu archivo."
+      edit:
+        title: Editar archivo
+        help: "Llena la forma a continuación para actualizar tu archivo."
+
+    content_types:
+      index:
+        new: modelo nuevo
+      new:
+        title: Modelo nuevo
+        help: "Crea tu propio modelo de data (proyectos, personas, etcétera). Tu modelo debe tener al menos un campo. El primer campo será mandatorio para los artículos creados con este tipo de contenido."
+      edit:
+        title: Editar modelo
+        help: "Tu modelo debe tener al menos un campo. El primer campo será mandatorio para los artículos creados con este tipo de contenido."
+        show_items: mostrar artículos
+        new_item: nuevo artículo
+      form:
+        order_by:
+          created_at: 'Por fecha de creación'
+          updated_at: 'Por fecha de actualización'
+          position_in_list: Manualmente
+        order_direction:
+          asc: Ascendiendo
+          desc: Descendiendo
+
+    contents:
+      index:
+        title: 'Listado de "%{type}"'
+        edit: editar modelo
+        destroy: borrar modelo
+        download: descargar artículos
+        new: artículo nuevo
+        category_noname: "Sin nombre"
+        lastest_items: "Artículos más recientes"
+        updated_at: "Actualizados en"
+      list:
+        no_items: "No existen artículos por el momento. Sólo haz click <a href=\"%{url}\">aquí</a> para crear el primero."
+      new:
+        title: '%{type} &mdash; artículo nuevo'
+      edit:
+        title: '%{type} &mdash; editar artículo'
+
+    image_picker:
+      link: Insertar una imagen en el código
+
+    cross_domain_sessions:
+      new:
+        title: Autenticación entre dominios
+        notice: Serás redirigido al sitio web en unos segundos.
+
+    imports:
+      new:
+        title: Importar
+        help: "Ten cuidado al subir un tema nuevo para tu sitio web existente. Tu data actual podría ser modificada o removida."
+      show:
+        title: Importación en progreso
+        help: "Tu sitio está siendo actualizado con el tema dentro del archivo .zip que has subido. Puede tardar varios segundos."
+        steps:
+          site: Información del sitio web
+          content_types: Tipos de contenido especiales
+          assets: Archivos de tema
+          asset_collections: Colecciones de archivos
+          snippets: Trozos
+          pages: Páginas
+        messages:
+          success: "Tu sitio web fue actualizado con éxito."
+          failure: "La importación no funcionó."
+
+    installation:
+      common:
+        title: Primera instalación de Locomotive
+        next: Próximo
+      step_1:
+        title: "Paso número 1 de 2 &mdash; Crear una cuenta"
+        name: Nombre de la cuenta
+        email: Correo electrónico
+        password: Contraseña
+        password_confirmation: Confirmación de contraseña
+        done: "Ya has creado una cuenta:<br/><strong>%{name}</strong>, <em>%{email}</em>"
+        next: Crear una cuenta
+      step_2:
+        title: "Paso número 2 de 2 &mdash; Create your first site"
+        explanations: "Este es el último paso de la instalación. Puedes subir un tema dentro de un archivo .zip. Tenemos temas disponibles libres de costo <a href=\"http://www.locomotivecms.com/support/themes\">aquí</a>."
+        next: Crear sitio web

@@ -1,0 +1,4 @@
+en:
+  carrierwave:
+    errors:
+      integrity: 'es de un tipo de archivo no permitido.'

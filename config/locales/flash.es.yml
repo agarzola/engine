@@ -1,0 +1,116 @@
+en:
+  flash:
+    admin:
+      pages:
+        create:
+          notice: "La página fue creada exitosamente."
+          alert: "La página no fue creada."
+        update:
+          notice: "La página fue actualizada exitosamente."
+          alert: "La página no fue actualizada."
+        sort:
+          notice: "Las páginas fueron reorganizadas exitosamente."
+        destroy:
+          notice: "La página fue borrada exitosamente."
+
+      contents:
+        create:
+          notice: "El contenido fue creado exitosamente."
+          alert: "El contenido no fue creado."
+        update:
+          notice: "El contenido no fue actualizado exitosamente."
+          alert: "El contenido no fue actualizado."
+        sort:
+          notice: "Los contenidos fueron reorganizados exitosamente."
+        destroy:
+          notice: "El contenido fue borrado exitosamente."
+
+      content_types:
+        create:
+          notice: "El modelo fue creado exitosamente."
+          alert: "El modelo no fue creado."
+        update:
+          notice: "El modelo fue actualizado exitosamente."
+          alert: "El modelo no fue actualizado."
+        destroy:
+          notice: "El modelo fue borrado exitosamente."
+
+      current_sites:
+        update:
+          notice: "Mi sitio web fue creado exitosamente."
+          alert: "Mi sitio web no fue creado."
+
+      snippets:
+        create:
+          notice: "El trozo fue creado exitosamente."
+          alert: "El trozo no fue creado."
+        update:
+          notice: "El trozo fue actualizado exitosamente."
+          alert: "El trozo no fue actualizado."
+        destroy:
+          notice: "El trozo fue borrado exitosamente."
+
+      accounts:
+        create:
+          notice: "La cuenta fue creada exitosamente."
+          alert: "La cuenta no fue creada."
+
+      my_accounts:
+        update:
+          notice: "La cuenta fue actualizada exitosamente."
+          alert: "La cuenta no fue actualizada."
+
+      sites:
+        create:
+          notice: "El sitio web fue creado exitosamente."
+          alert: "El sitio web no fue creado."
+        destroy:
+          notice: "El sitio web fue borrado exitosamente."
+
+      memberships:
+        create:
+          notice: "La membresía fue creada exitosamente."
+          alert: "La membresía no fue creada."
+          already_created: "La cuenta ya fue añadida al sitio web actual."
+
+      asset_collections:
+        create:
+          notice: "La colección fue creada exitosamente."
+          alert: "La colección no fue creada."
+        update:
+          notice: "La colección fue actualizada exitosamente."
+          alert: "La colección no fue actualizada."
+        destroy:
+          notice: "La colección fue borrada exitosamente."
+
+      assets:
+        create:
+          notice: "El archivo fue creado exitosamente."
+          alert: "El archivo no fue creado."
+        update:
+          notice: "El archivo fue actualizado exitosamente."
+          alert: "El archivo no fue actualizado."
+
+      theme_assets:
+        create:
+          notice: "El archivo de tema fue creado exitosamente."
+          alert: "El archivo de tema no fue creado."
+        update:
+          notice: "El archivo de tema fue actualizado exitosamente."
+          alert: "El archivo de tema no fue actualizado."
+        destroy:
+          notice: "El archivo de tema fue borrado exitosamente."
+
+      custom_fields:
+        update:
+          alert: "Campo no actualizado"
+
+      cross_domain_sessions:
+        create:
+          alert: "Debes entrar a tu cuenta"
+
+      imports:
+        create:
+          done: "Tu sitio web fue actualizado exitosamente."
+          notice: "Tu sitio web está siendo actualizado."
+          alert: "La importación no fue completada."

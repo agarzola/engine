@@ -1,0 +1,32 @@
+en:
+  date:
+    formats:
+      default: "%d/%m/%Y"
+
+  errors:
+      messages:
+        domain_taken: "%{value} ya está tomado"
+        invalid_domain: "%{value} no es válido"
+        needs_admin_account: "Al menos una cuenta de administrador es requerida."
+        protected_page: "No puedes remover páginas de índice o 404."
+        extname_changed: "Archivo nuevo no tiene la extensión original."
+        array_too_short: "es muy pequeño (número mínimo de elementos es %{count})"
+        liquid_syntax: "Error de Liquid Syntax ('%{error}' en '%{fullpath}')"
+        liquid_extend: "La página '%{fullpath}' extiende una plantilla que no existe."
+        invalid_theme_file: "no puede estar en blanco, o no es un archivo .zip"
+
+  attributes:
+    defaults:
+      pages:
+        index:
+          title: "Página de inicio"
+          body: "Contenido de la página de inicio"
+        "404":
+          title: "Página no encontrada"
+          body: "Contenido de la página 404"
+        other:
+          body: "{% extends 'parent' %}"
+
+  pagination:
+    previous: "&laquo; Anterior"
+    next: "Próxima &raquo;"

@@ -1,0 +1,63 @@
+en:
+  errors:
+    messages:
+      not_found: "no encontrado/a"
+      already_confirmed: "ya estuvo confirmado/a"
+      not_locked: "no estaba protegido/a"
+
+  devise:
+    failure:
+      admin:
+        unauthenticated: 'Debes entrar o registrarte antes de continuar.'
+        unconfirmed: 'Debes confirmar tu cuenta antes de continuar.'
+        locked: 'Tu cuenta está bloqueada.'
+        invalid: 'El correo electrónico no es válido, o la contraseña no es válida.'
+        no_membership: 'Tu cuenta no es miembro de este sitio web, por favor ponte en contacto con el administrador del sitio web para conseguir acceso.'
+        invalid_token: 'Ficha de autenticación no válida.'
+        timeout: 'Tu sesión ha expirado, por favor entra de nuevo para continuar.'
+        inactive: 'Tu cuenta aún no ha sido activada.'
+    sessions:
+      admin:
+        signed_in: 'Entrada exitosa.'
+        signed_out: 'Salida exitosa.'
+    passwords:
+      admin:
+        send_instructions: 'Recibirás un mensaje de correo electrónico con instrucciones acerca de cómo reestablecer tu contraseña en unos minutos.'
+        updated: 'Tu contraseña fue actualizada exitosamente. Has entrado a tu cuenta.'
+    confirmations:
+      admin:
+        send_instructions: 'Recibirás un mensaje de correo electrónico con instrucciones acerca de cómo confirmar tu cuenta en unos minutos.'
+        confirmed: 'Tu cuenta fue confirmada exitosamente. Has entrado a tu cuenta.'
+    registrations:
+      admin:
+        signed_up: 'Te has registrado exitosamente.'
+        updated: 'Has actualizado tu cuenta exitosamente.'
+        destroyed: '¡Hasta luego! Tu cuenta fue cancelada exitosamente. Esperamos verte de nuevo pronto.'
+    unlocks:
+      admin:
+        send_instructions: 'Recibirás un mensaje de correo electrónico con instrucciones acerca de cómo desbloquear tu cuenta en unos minutos.'
+        unlocked: 'Tu cuenta fue desbloqueada exitosamente. Has entrado a tu cuenta.'
+    mailer:
+      admin:
+        confirmation_instructions: 'Instrucciones de confirmación'
+        reset_password_instructions: 'Instrucciones para reestablecer contraseña'
+        unlock_instructions: 'Instrucciones para desbloquear'
+        
+        
+  admin:
+    mailer:
+      common:
+        hello: Hola
+
+      confirmation_instructions:
+        you_can_confirm_your_account_through_the_link_below: "Puedes confirmar tu cuenta oprimiento el enlace a continuación:"
+        confirm_my_account: "Confirmar mi ciuenta"
+      reset_password_instructions:
+        reset_password_instruction: "Alguien ha solicitado un enlace para cambiar tu contraseña, y lo puedes hacer oprimiendo el enlace a continuación:"
+        change_my_password: "Cambiar mi contraseña"
+        wrong_request_instruction: "Si no has solicitado este cambio, por favor ignora este mensaje."
+        unchange_password_message: "Tu contraseña no cambiará hasta que accedas el enlace arriba y crees una contraseña nueva."
+      unlock_instructions:
+        locked_account_message: "Tu cuenta ha sido bloqueada debido a una cantidad excesiva de intentos fallidos para entrar."
+        unlock_account_instruction: "Haz click en el enlace a continuación para desbloquear tu cuenta:"
+        unlock_my_account: "Desbloquear mi cuenta"
